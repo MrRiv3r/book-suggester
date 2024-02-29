@@ -1,0 +1,413 @@
+/* Reset all CSS properties */
+.reset {
+    all: unset;
+}
+
+/* Styling for the body */
+body {
+    display: flex; /* Flex container */
+    justify-content: center; /* Center horizontally */
+    background-color: rgb(235, 235, 225); /* Background color */
+}
+
+/* Styling for sections */
+section {
+    width: 100%; /* Change to a percentage for responsiveness */
+    max-width: 4000px; /* Add a max-width for larger screens */
+    margin: 0 auto; /* Center the section */
+}
+
+/* Styling for h1 */
+h1 {
+    font-size: 10vw; /* Using viewport units for font-size */
+    text-align: center; /* Center text */
+    height: 30vw; /* Using viewport units for height */
+    background-color: rgb(245, 245, 235); /* Background color */
+    color: rgb(0, 0, 0); /* Text color */
+    display: flex; /* Flex container */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 0; /* Remove margin */
+    font-family: "sabbath-black", serif; /* Font family */
+    font-weight: 800; /* Font weight */
+    font-style: normal; /* Font style */
+}
+
+/* Styling for h4 */
+h4 {
+    font-size: 2vw; /* Using viewport units for font-size */
+    margin: 0;
+    padding-left: 0.5vw;
+    font-family: "vendetta", serif; /* Font family */
+    font-weight: 500; /* Font weight */
+    font-style: normal; /* Font style */
+}
+
+
+.title-block.title-block-0 {
+    width: 100%; /* Change to a percentage for responsiveness */
+    max-width: 4000px; /* Add a max-width for larger screens */
+    height: 15vw; /* Using viewport units for height */
+    font-size: 3vw; /* Using viewport units for font-size */
+    background-color: rgb(235, 235, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+   
+}
+.title-block.title-block-1 {
+    width: 100%; /* Change to a percentage for responsiveness */
+    max-width: 4000px; /* Add a max-width for larger screens */
+    height: 15vw; /* Using viewport units for height */
+    font-size: 3vw; /* Using viewport units for font-size */
+    background-color: rgb(225, 225, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+   
+    color: rgb(0, 0, 0); /* Change 'red' to your desired color */
+}
+.title-block.title-block-2 {
+    width: 100%; /* Change to a percentage for responsiveness */
+    max-width: 4000px; /* Add a max-width for larger screens */
+    height: 15vw; /* Using viewport units for height */
+    font-size: 3vw; /* Using viewport units for font-size */
+    background-color: rgb(215, 215, 205);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+   
+    color: rgb(0, 0, 0); /* Change 'red' to your desired color */
+}
+
+
+.answer-options-0 {
+    width: 100%; /* Change to a percentage for responsiveness */
+    max-width: 4000px; /* Add a max-width for larger screens */
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(235, 235, 225);
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    font-family: "vendetta", serif;
+
+    font-weight: 500;
+    font-style: normal;
+}
+.answer-options-1 {
+    width: 100%; /* Change to a percentage for responsiveness */
+    max-width: 4000px; /* Add a max-width for larger screens */
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(225, 225, 215);
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    font-family: "vendetta", serif;
+
+    font-weight: 500;
+    font-style: normal;
+}
+.answer-options-2 {
+    width: 100%; /* Change to a percentage for responsiveness */
+    max-width: 4000px; /* Add a max-width for larger screens */
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(215, 215, 205);
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    font-family: "vendetta", serif;
+
+    font-weight: 500;
+    font-style: normal;
+}
+
+.answer-block-0-0 {
+    width: 25%; /* Change to a percentage for responsiveness */
+    height: 7vw; /* Using viewport units for height */
+    font-size: 3vw; /* Using viewport units for font-size */
+    text-align: center;
+    overflow: hidden;
+    border-radius: 7vw; /* Using viewport units for border-radius */
+    border: 0.5vw solid #000000; /* Using viewport units for border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    margin-left: 1vw;
+    margin-right:1vw;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+.answer-block-0-1 {
+    width: 25%; /* Change to a percentage for responsiveness */
+    height: 7vw; /* Using viewport units for height */
+    font-size: 3vw; /* Using viewport units for font-size */
+    text-align: center;
+    overflow: hidden;
+    border-radius: 7vw; /* Using viewport units for border-radius */
+    border: 0.5vw solid #000000; /* Using viewport units for border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    margin-left: 1vw;
+    margin-right:1vw;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.answer-block-0-2 {
+    width: 25%; /* Change to a percentage for responsiveness */
+    height: 7vw; /* Using viewport units for height */
+    font-size: 3vw; /* Using viewport units for font-size */
+    text-align: center;
+    overflow: hidden;
+    border-radius: 7vw; /* Using viewport units for border-radius */
+    border: 0.5vw solid #000000; /* Using viewport units for border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    margin-left: 1vw;
+    margin-right:1vw;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.answer-block-1-0 {
+    width: 25%; /* Change to a percentage for responsiveness */
+    height: 7vw; /* Using viewport units for height */
+    font-size: 3vw; /* Using viewport units for font-size */
+    text-align: center;
+    overflow: hidden;
+    border-radius: 7vw; /* Using viewport units for border-radius */
+    border: 0.5vw solid #000000; /* Using viewport units for border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    margin-left: 1vw;
+    margin-right:1vw;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.answer-block-1-1 {
+    width: 25%; /* Change to a percentage for responsiveness */
+    height: 7vw; /* Using viewport units for height */
+    font-size: 3vw; /* Using viewport units for font-size */
+    text-align: center;
+    overflow: hidden;
+    border-radius: 7vw; /* Using viewport units for border-radius */
+    border: 0.5vw solid #000000; /* Using viewport units for border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    margin-left: 1vw;
+    margin-right:1vw;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.answer-block-1-2 {
+    width: 25%; /* Change to a percentage for responsiveness */
+    height: 7vw; /* Using viewport units for height */
+    font-size: 3vw; /* Using viewport units for font-size */
+    text-align: center;
+    overflow: hidden;
+    border-radius: 7vw; /* Using viewport units for border-radius */
+    border: 0.5vw solid #000000; /* Using viewport units for border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    margin-left: 1vw;
+    margin-right:1vw;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.answer-block-2-0 {
+    width: 25%; /* Change to a percentage for responsiveness */
+    height: 7vw; /* Using viewport units for height */
+    font-size: 3vw; /* Using viewport units for font-size */
+    text-align: center;
+    overflow: hidden;
+    border-radius: 7vw; /* Using viewport units for border-radius */
+    border: 0.5vw solid #000000; /* Using viewport units for border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    margin-left: 1vw;
+    margin-right:1vw;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.answer-block-2-1 {
+    width: 25%; /* Change to a percentage for responsiveness */
+    height: 7vw; /* Using viewport units for height */
+    font-size: 3vw; /* Using viewport units for font-size */
+    text-align: center;
+    overflow: hidden;
+    border-radius: 7vw; /* Using viewport units for border-radius */
+    border: 0.5vw solid #000000; /* Using viewport units for border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    margin-left: 1vw;
+    margin-right:1vw;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.answer-block-2-2 {
+    width: 25%; /* Change to a percentage for responsiveness */
+    height: 7vw; /* Using viewport units for height */
+    font-size: 3vw; /* Using viewport units for font-size */
+    text-align: center;
+    overflow: hidden;
+    border-radius: 7vw; /* Using viewport units for border-radius */
+    border: 0.5vw solid #000000; /* Using viewport units for border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    margin-left: 1vw;
+    margin-right:1vw;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.answer-block a {
+    color: rgb(212, 198, 198);
+}
+
+.result-block {
+    width: 100%; /* Change to a percentage for responsiveness */
+    max-width: 4000px; /* Add a max-width for larger screens */
+    height: 5vw; /* Using viewport units for height */
+    display: flex;
+    font-size: 1.5vw; /* Using viewport units for font-size */
+    justify-content: center;
+    background-color: rgb(207, 197, 168);;
+    color: rgb(0, 0, 0);
+}
+#additional-result-block {
+    /* Your CSS styles for the additional result block */
+    /* For example: */
+    width: 100%; /* Adjust to your desired width */
+    height: 0vw; /* Adjust to your desired height */
+    display: flex;
+    justify-content: center;
+    background-color: rgb(207, 197, 168);;
+
+}
+a {
+    width: 100%; /* Change to a percentage for responsiveness */
+    max-width: 4000px; /* Add a max-width for larger screens */
+    height: 5vw; /* Using viewport units for height */
+    font-size: 3vw; /* Using viewport units for font-size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 235, 225);
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+img {
+    display: none;
+
+    max-width: 100%; /* Adjust to fit container */
+    min-width: 30%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.answer-block:hover {
+    background-color: #000000;
+    color: rgb(235, 235, 225);
+    cursor: pointer;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#video-and-text {
+    display: flex;
+}
+
+#bookVideo {
+    width: 100%; /* Adjust to fit container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#text-container {
+   /* margin-left: 2vw; /* Using viewport units for margin */
+    color: rgb(0, 0, 0);
+    background-color: rgb(235, 235, 225);
+}
+
+p {
+    font-size: 1.5vw; /* Using viewport units for font-size */
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    margin-top: -0.15vw;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-bottom: 1.5vw;
+}
+h5 {
+    margin-top:-0.5vw;
+    margin-bottom: -0.5vw;
+    font-size: 2.9vw; /* Using viewport units for font-size */
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-left: 0.5vw;
+    padding-right: 1.5vw;
+}
+#x {
+    display: none;
+}
+button{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(234, 235, 225);
+}

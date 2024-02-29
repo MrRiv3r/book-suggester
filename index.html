@@ -1,0 +1,173 @@
+<!DOCTYPE html> <!-- Declaration of the document type -->
+<html lang="en"> <!-- HTML language attribute set to English -->
+<head>
+    <!-- External font stylesheet -->
+    <link rel="stylesheet" href="https://use.typekit.net/qlo8ofl.css">
+
+    <!-- Meta tag for character encoding -->
+    <meta charset="UTF-8">
+    <!-- Title of the document -->
+    <title>Book Suggester</title>
+    <!-- Link to an external CSS file -->
+    <link id="stylesheet" rel="stylesheet" href="styles2.css">
+    <!-- Internal styles -->
+    <style>
+        /* Additional styles for the button */
+        button {
+            /* Adjusting font size and padding */
+            font-size: 2vw;
+            padding: 1vw 2vw;
+            position: relative; /* Positioning relative to parent */
+            top: 2vw; /* Offset from the top */
+            left: 50%; /* Horizontally centering */
+            transform: translateX(-50%); /* Centering horizontally */
+            background-color: #000000; /* Background color */
+            color: white; /* Text color */
+            border: none; /* No border */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Cursor style */
+        }
+
+        button:hover {
+            background-color: #535353; /* Darker background color on hover */
+        }
+
+        /* Hiding the image initially */
+        #x {
+            display: none;
+        }
+
+        /* Media query for small screens */
+        @media only screen and (max-width: 1000px) {
+            /* Styling changes for smaller screens */
+            #video-and-text {
+                flex-direction: column; /* Stack items vertically */
+                align-items: center; /* Center align items */
+            }
+
+            #x {
+                order: -1; /* Move the image above the text */
+                width: 100%; /* Full width */
+                margin-bottom: 2vw; /* Spacing */
+            }
+
+            #text-container .inline-heading {
+                display: inline-block;
+                margin: 0; /* Remove any default margin */
+            }
+
+            /* Adjusting font sizes for smaller screens */
+            #text-container p {
+                font-size: 4vw;
+            }
+
+            #text-container h4 {
+                font-size: 6vw;
+            }
+
+            #text-container h5 {
+                font-size: 8vw;
+            }
+        }
+
+        #text-container .inline-heading {
+            display: inline-block;
+            margin: 0; /* Remove any default margin */
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <section>
+            <!-- Title -->
+            <h1>River's Book Suggester</h1>
+            <!-- Placeholder for questions -->
+            <div id="questions"></div>
+            <!-- Placeholder for answers -->
+            <div id="answer"></div>
+            <!-- Container for video and text -->
+            <div id="video-and-text">
+                <!-- Initially hidden image -->
+                <img id="x" src="./images/blank.png">
+                <!-- Video element -->
+                <video id="bookVideo" width="600" height="1000" autoplay muted preload="auto" loop poster="video-poster.jpg">
+                    <source src="./images/bookloop.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <!-- Container for text content -->
+                <div id="text-container">
+                    <!-- Headings and paragraphs -->
+                    <h4 id="t.1"></h4>
+                    <h5 id="t"></h5>
+                    <br>
+                    <h4 id="i.1"></h4>
+                    <h5 id="i"></h5>
+                    <br>
+                    <h4 id="p.1"></h4>
+                    <h5 id="p"></h5>
+                    <br>
+                    <h4 id="yx"></h4>
+                    <h5 id="y.1"></h5>
+                    <br>
+                    <h4 id="d.1"></h4>
+                    <p id="d"></p>
+                </div>
+            </div>
+            
+            <!-- Placeholder for additional results -->
+            <div id="additional-result-block"></div>
+
+            <!-- Link to take the quiz again -->
+            <a href="index.html">Take quiz again</a>
+            <!-- Links to external websites -->
+            <div>
+                <a id="y" href="https://www.goodreads.com/" target="_blank">GoodReads</a>
+            </div>
+            <div>
+                <a id="z" href="https://www.amazon.ca/" target="_blank">Amazon</a>
+            </div>
+            <!-- Link to about page -->
+            <a href="about.html">About</a>
+            <!-- Button to toggle dark and light mode -->
+            <button onclick="changeStyleSheet()">Toggle Dark and Light Mode</button>
+
+            <!-- Script to toggle stylesheets -->
+            <script>
+                function changeStyleSheet() {
+                    var stylesheet = document.getElementById('stylesheet');
+                    if (stylesheet.getAttribute('href') === 'styles2.css') {
+                        stylesheet.setAttribute('href', 'styles4.css');
+                    } else {
+                        stylesheet.setAttribute('href', 'styles2.css');
+                    }
+                }
+            </script>
+        </section>
+    </div>
+    <!-- Audio element for click sound -->
+    <audio id="myAudio" muted>
+        <source src="./images/click.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <!-- Script to play audio on click -->
+    <script>
+        // Add a click event listener to the document
+        document.addEventListener('click', function() {
+            var audio = document.getElementById('myAudio');
+            
+            // Check if the audio is muted, and unmute it
+            if (audio.muted) {
+                audio.muted = false;
+            }
+    
+            // Play the audio
+            audio.play();
+            
+            // Remove the click event listener after the first click
+        });
+    </script>
+    <!-- External JavaScript file -->
+    <script src="app.js"></script>
+</body>
+</html>

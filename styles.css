@@ -1,0 +1,212 @@
+/* Reset all CSS properties to their initial values */
+.reset {
+    all: unset;
+}
+
+/* Styling for the container element */
+#container {
+    border: 5vw solid rgb(49, 44, 44); /* Border with viewport units */
+}
+
+/* Styling for the body */
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(63, 63, 63);
+}
+
+/* Styling for the section element */
+section {
+    width: 100%; /* Percentage width for responsiveness */
+    max-width: 4000px; /* Maximum width for larger screens */
+    margin: 0 auto; /* Center the section horizontally */
+}
+
+/* Styling for the h1 element */
+h1 {
+    font-size: 17vw; /* Viewport units for font-size */
+    text-align: center;
+    height: 50vw; /* Viewport units for height */
+    background-color: rgb(63, 63, 63);
+    color: rgb(144, 144, 144);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Remove margin */
+    font-family: "sabbath-black", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* Styling for the h4 element */
+h4 {
+    font-size: 3vw; /* Viewport units for font-size */
+    margin: 0;
+    padding-left: 0.5vw;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Styling for the title blocks */
+.title-block {
+    width: 100%; /* Percentage width for responsiveness */
+    max-width: 4000px; /* Maximum width for larger screens */
+    height: 15vw; /* Viewport units for height */
+    font-size: 4vw; /* Viewport units for font-size */
+    background-color: rgb(118, 117, 117);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Styling for the answer options */
+.answer-options {
+    width: 100%; /* Percentage width for responsiveness */
+    max-width: 4000px; /* Maximum width for larger screens */
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(63, 63, 63);
+    color: rgb(144, 144, 144);
+    justify-content: space-between;
+    align-items: center;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Styling for the answer blocks */
+.answer-block {
+    width: 25%; /* Percentage width for responsiveness */
+    height: 15vw; /* Viewport units for height */
+    font-size: 4vw; /* Viewport units for font-size */
+    text-align: center;
+    overflow: hidden;
+    border-radius: 3vw; /* Viewport units for border-radius */
+    border: 1vw solid #000; /* Viewport units for border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2vw 1vw 5vw 1vw; /* Using viewport units for margin */
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Styling for the anchor tags inside answer blocks */
+.answer-block a {
+    color: rgb(77, 74, 74);
+}
+
+/* Styling for the result block */
+.result-block {
+    width: 100%; /* Percentage width for responsiveness */
+    max-width: 4000px; /* Maximum width for larger screens */
+    height: 5vw; /* Viewport units for height */
+    display: flex;
+    font-size: 1.5vw; /* Viewport units for font-size */
+    justify-content: center;
+    background-color: rgb(49, 44, 44);
+    color: rgb(0, 0, 0);
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Styling for additional result block */
+#additional-result-block {
+    width: 100%; /* Adjust to desired width */
+    height: 0vw; /* Adjust to desired height */
+    display: flex;
+    justify-content: center;
+    background-color: rgb(49, 44, 44);
+}
+
+/* Styling for anchor tags */
+a {
+    width: 100%; /* Percentage width for responsiveness */
+    max-width: 4000px; /* Maximum width for larger screens */
+    height: 5vw; /* Viewport units for height */
+    font-size: 3vw; /* Viewport units for font-size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(63, 63, 63);
+    color: rgb(144, 144, 144);
+    margin: 0;
+    padding: 0;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Styling for images */
+img {
+    max-width: 100%; /* Adjust to fit container */
+    min-width: 30%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Hover effect for answer blocks */
+.answer-block:hover {
+    background-color: #686666;
+    cursor: pointer;
+}
+
+/* Center the container */
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Styling for video and text elements */
+#video-and-text {
+    display: flex;
+}
+
+/* Styling for book video */
+#bookVideo {
+    width: 100%; /* Adjust to fit container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Styling for text container */
+#text-container {
+    /*margin-left: 2vw; /* Using viewport units for margin */
+    color: rgb(144, 144, 144);
+    background-color: rgb(63, 63, 63);
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Styling for paragraphs */
+p {
+    font-size: 1.5vw; /* Viewport units for font-size */
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-bottom: 1vw;
+}
+
+/* Styling for h5 elements */
+h5 {
+    margin-top: -0.3vw;
+    margin-bottom: -0.3vw;
+    font-size: 2.9vw; /* Viewport units for font-size */
+    font-family: "vendetta", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Styling for buttons */
+button {
+    display: flex;
+    justify-content: center;
+}
